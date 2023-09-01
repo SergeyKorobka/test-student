@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background: var(--white-background-color);
   line-height: 1.5;
@@ -33,7 +33,7 @@ button {
   cursor: pointer;
 }
 .button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: var(--white-background-color);
   letter-spacing: 0.04em;
@@ -67,7 +67,7 @@ img {
   align-items: center;
 }
 .header-cont-nav-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--socialmain-color);
   font-size: 18px;
   font-weight: 700;
@@ -108,7 +108,7 @@ img {
 }
 
 .current::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   left: 0;
@@ -273,7 +273,6 @@ label {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: block;
 }
 
 .form-input:focus,
@@ -314,6 +313,7 @@ label {
   top: 0;
   z-index: 1;
   cursor: not-allowed;
+  transform: scale(1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -398,7 +398,7 @@ label {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -640,7 +640,7 @@ label {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--socialmain-color);
   font-size: 18px;
   font-weight: 700;
@@ -742,7 +742,7 @@ label {
 }
 
 .subscribe-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
